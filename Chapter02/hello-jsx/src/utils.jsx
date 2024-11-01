@@ -4,15 +4,16 @@
  * @returns {boolean} true：数字类型；false：非数字类型
  */
 export function isNumber(num) {
-    return !(num === null) && !(num === undefined) && typeof(num) === 'number'
+    return !(num === null) && !(num === undefined) && typeof (num) === 'number'
 }
+
 /**
  * 判断是否为字符串类型
  * @param str 需要判断的变量
  * @returns {boolean} true：字符串类型；false：非字符串类型
  */
 export function isString(str) {
-    return !(str === null) && !(str === undefined) && typeof(str) === 'string'
+    return !(str === null) && !(str === undefined) && typeof (str) === 'string'
 }
 
 /**
