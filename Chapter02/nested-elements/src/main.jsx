@@ -6,7 +6,7 @@ import MyButton from "./MyButton";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <MySection>
-    <MyButton>My Button Text</MyButton>
-  </MySection>
+    <MySection>
+        <MyButton>My Button Text</MyButton>
+    </MySection>
 );
